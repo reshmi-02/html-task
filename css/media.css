@@ -1,0 +1,87 @@
+@media(min-width:320px){
+    .col-1{
+        width:100%;
+    }
+    .col-2{
+        width:100%;
+    }
+    .col-3{
+        width:100%;
+        padding-top:20px;
+    }
+    .container{
+        width:100%;
+    }
+    .card-1{
+        display:flex;
+        padding-left:100px;
+    }
+    .card-2{
+        padding-left:20px;
+    }
+    .card2-button1{
+        padding:10px 10px;
+    }
+    .card3-edit2{
+        padding-left: 50px;
+    }
+}
+
+@media(min-width:660px){
+    .col-1{
+        width:100%;
+    }
+    .col-2{
+        width:100%;
+        padding-top:20px;
+    }
+    .col-3{
+        width:100%;
+        padding-top:20px;
+    }
+    .container{
+        width:80%;
+    }
+    .card-1{
+        display:flex;
+        padding-left:190px;
+    }
+    .card-2{
+        padding-left:20px;
+    }
+    .card2-button1{
+        padding:10px 10px;
+    }
+    .card3-edit2{
+        padding-left: 100px;
+    }
+}
+
+@media(min-width:1000px){
+    .container{
+        width:80%;
+    }
+    .col-1{
+        width:10%;
+    }
+    .col-2{
+        width:40%;
+    }
+    .col-3{
+        width:50%;
+    }
+    .card-1{
+        display:flex;
+        flex-direction:column;
+        padding-left:0px;
+    }
+    .card-2{
+        padding-left:0px;
+    }
+    .card2-button1{
+        padding:10px 50px;
+    }
+    .card3-edit2{
+        padding-left: 100px;
+    }
+}
